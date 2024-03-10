@@ -31,3 +31,36 @@ body {
     animation-play-state: paused;
   }
 }
+
+@keyframes move {
+  0% {
+    transform: translateX(0) translateY(-100vh);
+  }
+  100% {
+    transform: translateX(50vw) translateY(100vh);
+  }
+}
+
+@keyframes stem {
+  0% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-100vh) skewX(-20deg);
+  }
+  100% {
+    transform: translateY(100vh) skewX(-20deg);
+  }
+}

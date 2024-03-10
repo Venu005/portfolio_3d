@@ -22,7 +22,7 @@ export default function BatModel(props) {
       {...props}
       dispose={null}
       position={[0, -1.5, 0]}
-      scale={[2.0, 1.8, 2.0]}
+      scale={[2.0, 2.0, 2.0]}
       rotation={[0.25, 0, 0]}
       ref={modelRef}
     >
